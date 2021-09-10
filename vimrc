@@ -41,3 +41,10 @@ inoremap <Up> <C-o>:echo "Use K"<CR>
 nnoremap <Down> :echo "Use J"<CR>
 vnoremap <Down> :<C-u>echo "Use J"<CR>
 inoremap <Down> <C-o>:echo "Use J"<CR>
+
+inoremap { {}<Esc>ha
+inoremap ( ()<Esc>ha
+inoremap [ []<Esc>ha
+inoremap " ""<Esc>ha
+inoremap ' ''<Esc>ha
+inoremap ` ``<Esc>ha
