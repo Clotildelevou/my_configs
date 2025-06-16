@@ -1,0 +1,77 @@
+* {
+    background:     #1e1e2e;
+    background-alt: #2e2e3e;
+    foreground:     #f8f8f2;
+    selected:       #44475a;
+    accent:         #bd93f9;
+    border:         #6272a4;
+    urgent:         #ff5555;
+    active:         #50fa7b;
+    font:           "FiraCode 12";
+}
+
+window {
+    background-color: @background;
+    border: 2px;
+    border-color: @border;
+    border-radius: 6px;
+}
+
+mainbox {
+    background-color: @background;
+    padding: 10px;
+}
+
+inputbar {
+    background-color: @background-alt;
+    text-color: @foreground;
+    padding: 6px;
+    margin: 0 0 10px 0;
+    border: 1px solid @border;
+    border-radius: 4px;
+}
+
+prompt {
+    text-color: @accent;
+    padding: 0 6px 0 0;
+}
+
+textbox-prompt-colon {
+    expand: false;
+    str: ":";
+    text-color: @accent;
+}
+
+listview {
+    background-color: @background;
+    border: 0;
+    spacing: 4px;
+    scrollbar: true;
+    fixed-height: false;
+}
+
+element {
+    background-color: transparent;
+    text-color: @foreground;
+    padding: 6px;
+    border-radius: 3px;
+}
+
+element selected {
+    background-color: @selected;
+    text-color: @accent;
+}
+
+element urgent {
+    text-color: @urgent;
+}
+
+element active {
+    text-color: @active;
+}
+
+scrollbar {
+    width: 4px;
+    handle-color: @accent;
+    background-color: @background-alt;
+}

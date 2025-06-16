@@ -1,0 +1,5 @@
+Eth-Up: ${upspeedf enp8s0} KiB/s  Eth-Down: ${downspeedf enp8s0} KiB/s
+${upspeedgraph enp8s0 40,130 -l} ${downspeedgraph enp8s0 40,130 -l}
+
+Wifi-Up: ${upspeedf wlo1} KiB/s  Wifi-Down: ${downspeedf wlo1} KiB/s
+${upspeedgraph wlo1 40,130 -l} ${downspeedgraph wlo1 40,130 -l}
